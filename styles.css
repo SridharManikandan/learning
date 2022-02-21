@@ -139,17 +139,28 @@
     }
 
     .centered {
-        position: absolute;       
+        position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: left;
     }
 
-    .split.right .centered{
+    .split.right .centered {
         top: 80%;
     }
-    .split.left .centered{
+
+    .split.left .centered {
         top: 50%;
+    }
+
+    .split.left .centered.achievements {
+        top: 80%;
+        font-family: fantasy !important;
+    }
+
+    .split.right .centered.achievements {
+        top: 82%;
+        font-family: fantasy !important;
     }
 
     /* .centered img {
@@ -303,17 +314,28 @@
     }
 
     .centered {
-        position: absolute;       
+        position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: left;
     }
 
-    .split.right .centered{
+    .split.right .centered {
         top: 42%;
     }
-    .split.left .centered{
+
+    .split.left .centered {
         top: 25%;
+    }
+
+    .split.left .centered.achievements {
+        top: 40%;
+        font-family: fantasy !important;
+    }
+
+    .split.right .centered.achievements {
+        top: 28%;
+        font-family: fantasy !important;
     }
 
     /* .centered img {
