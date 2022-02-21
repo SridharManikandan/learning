@@ -32,6 +32,14 @@ input[type="submit"]:hover {
     padding: 39px;
 }
 
+.video {
+    width: 671px;
+    height: 333px;
+    margin-left: 1137px;
+    margin-top: -407px;
+    padding: 57px;
+}
+
 @media only screen and (min-device-width: 768px) {
     #header {
         margin-top: 0px;
