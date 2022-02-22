@@ -142,40 +142,48 @@ input[type="submit"]:hover {
     .left {
         left: 0;
         background-color: #111;
-        font-family: initial;
+        font-family: 'Baloo Thambi 2', cursive;
     }
     .right {
         right: 0;
         background-color: red;
-        font-family: fantasy;
+        font-family: 'Baloo Thambi 2', cursive;
     }
     .centered {
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: left;
+        line-height: 1.8;
+        word-spacing: 5px;
+        font-family: 'Baloo Thambi 2', cursive;
     }
     .split.right .centered {
-        top: 80%;
+        top: 105%;
+        font-family: 'Baloo Thambi 2', cursive;
     }
     .split.left .centered {
-        top: 50%;
+        top: 83%;
     }
     .split.left .centered.achievements {
-        top: 80%;
-        font-family: fantasy !important;
+        top: 126%;
+        font-family: 'Baloo Thambi 2', cursive;
+        margin-top: 235px;
+        letter-spacing: 1px;
     }
     .split.right .centered.achievements {
-        top: 82%;
-        font-family: fantasy !important;
+        top: 69%;
+        font-family: 'Baloo Thambi 2', cursive;
     }
     .split.right .centered.contact {
         top: 58%;
-        font-family: fantasy !important;
+        font-family: 'Baloo Thambi 2', cursive;
     }
     .split.left .centered.contact {
-        top: 35%;
-        font-family: fantasy !important;
+        top: 57%;
+        font-family: 'Baloo Thambi 2', cursive;
+        font-size: 21px;
+        font-weight: 900;
     }
     .mySlides {
         width: 75%;
@@ -188,6 +196,18 @@ input[type="submit"]:hover {
         width: 150px;
         border-radius: 50%;
     } */
+    .video {
+        width: 631px;
+        height: 321px;
+        margin-left: 956px;
+        margin-top: -392px;
+        padding: 54px;
+        text-align: left;
+        flex: 100%;
+    }
+    iframe {
+        flex: 100%;
+    }
 }
 
 @media only screen and (max-device-width: 640px) {
@@ -305,28 +325,28 @@ input[type="submit"]:hover {
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: left;
+        line-height: 1.8;
+        word-spacing: 5px;
+        font-family: 'Baloo Thambi 2', cursive;
     }
     .split.right .centered {
-        top: 42%;
+        top: 63%;
     }
     .split.left .centered {
-        top: 25%;
+        top: 52%;
     }
     .split.left .centered.achievements {
-        top: 40%;
-        font-family: fantasy !important;
+        top: 86%;
     }
     .split.right .centered.achievements {
-        top: 28%;
-        font-family: fantasy !important;
+        top: 47%;
     }
     .split.right .centered.contact {
-        top: 25%;
-        font-family: fantasy !important;
+        top: 27%;
+        font-family: 'Baloo Thambi 2', cursive;
     }
     .split.left .centered.contact {
-        top: 15%;
-        font-family: fantasy !important;
+        top: 23%;
     }
     .mySlides {
         width: 75%;
@@ -339,4 +359,11 @@ input[type="submit"]:hover {
         width: 150px;
         border-radius: 50%;
     } */
+    .video {
+        width: 383px;
+        height: 238px;
+        margin-left: 471px;
+        margin-top: -411px;
+        padding: 57px;
+    }
 }
