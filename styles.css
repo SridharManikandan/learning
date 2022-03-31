@@ -383,19 +383,23 @@ input[type="submit"]:hover {
     }
 
     .split.right .centered {
-        top: 63%;
+        top: 132%;
+        font-size: 35px;
     }
 
     .split.left .centered {
-        top: 52%;
+        top: 132%;
+        font-size: 35px;
     }
 
     .split.left .centered.achievements {
-        top: 86%;
+        top: 178%;
+        font-size: 35px;
     }
 
     .split.right .centered.achievements {
-        top: 47%;
+        top: 82%;
+        font-size: 35px;
     }
 
     .split.right .centered.contact {
@@ -404,7 +408,9 @@ input[type="submit"]:hover {
     }
 
     .split.left .centered.contact {
-        top: 23%;
+        top: 28%;
+        left: 525px;
+
     }
 
     .mySlides {
