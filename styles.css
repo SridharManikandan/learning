@@ -145,6 +145,10 @@ input[type="submit"]:hover {
         color: black;
     }
 
+    #content #home-content{
+
+        float: left; text-align: left; line-height: 2px; 
+    }
     .split {
         height: 55%;
         width: 50%;
