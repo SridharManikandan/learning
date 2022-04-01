@@ -38,10 +38,12 @@ input[type="submit"]:hover {
         position: relative;
         height: 320px;
     }
+
     .header-bg {
         position: relative;
         text-align: center;
     }
+
     .top-left {
         position: absolute;
         top: 8px;
@@ -51,24 +53,29 @@ input[type="submit"]:hover {
         font-size: 30px;
         font-weight: 900;
     }
+
     #header-nav-li li {
         display: inline;
         padding: 20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
     }
+
     #header-nav-li li a {
         text-decoration: none;
     }
+
     #header-nav-li li:hover {
         background-color: gold;
     }
+
     #header-nav {
         display: block;
         background-color: orange;
         width: 100%;
         padding: 5px;
     }
+
     #footer {
         position: fixed;
         left: 0px;
@@ -79,6 +86,7 @@ input[type="submit"]:hover {
         text-align: center;
         height: 65px;
     }
+
     .fa {
         padding: 10px;
         font-size: 23px;
@@ -88,28 +96,34 @@ input[type="submit"]:hover {
         margin: 5px 2px;
         border-radius: 50%;
     }
+
     .fa:hover {
         opacity: 0.7;
     }
+
     .fa-facebook {
         background: #3B5998;
         color: white;
     }
+
     .fa-twitter {
         background: #55ACEE;
         color: white;
     }
+
     .fa-youtube {
         background: #bb0000;
         color: white;
     }
+
     .fa-instagram {
         background: #125688;
         color: white;
     }
+
     #content {
         /* The image used */
-        background-color: black;
+        background-color: white;
         /* Full height */
         height: 100%;
         /* Center and scale the image nicely */
@@ -120,8 +134,9 @@ input[type="submit"]:hover {
         overflow-y: auto;
         /* tamil font */
         font-family: Roboto, Arial, sans-serif;
-        color: white;
+        color: black;
     }
+
     .split {
         height: 55%;
         width: 50%;
@@ -131,44 +146,54 @@ input[type="submit"]:hover {
         overflow-y: scroll;
         padding-top: 20px;
     }
+
     .left {
         left: 0;
-        background-color: #111;
+        background-color: white;
         font-family: initial;
     }
+
     .right {
         right: 0;
-        background-color: red;
+        background-color: white;
         font-family: fantasy;
     }
+
     .centered {
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: left;
     }
+
     .split.right .centered {
         top: 80%;
     }
+
     .split.left .centered {
         top: 50%;
     }
+
     .split.left .centered.achievements {
         top: 80%;
         font-family: fantasy !important;
     }
+
     .split.right .centered.achievements {
         top: 82%;
         font-family: fantasy !important;
     }
+
     .split.right .centered.contact {
         top: 58%;
         font-family: fantasy !important;
     }
+
     .split.left .centered.contact {
         top: 35%;
         font-family: fantasy !important;
     }
+
     .mySlides {
         width: 75%;
         display: block;
@@ -176,6 +201,7 @@ input[type="submit"]:hover {
         margin-right: auto;
         padding: 30px;
     }
+
     /* .centered img {
         width: 150px;
         border-radius: 50%;
@@ -188,10 +214,12 @@ input[type="submit"]:hover {
         position: relative;
         height: 320px;
     }
+
     .header-bg {
         position: relative;
         text-align: center;
     }
+
     .top-left {
         position: absolute;
         top: 8px;
@@ -201,24 +229,29 @@ input[type="submit"]:hover {
         font-size: 30px;
         font-weight: 900;
     }
+
     #header-nav-li li {
         display: inline;
         padding: 20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
     }
+
     #header-nav-li li a {
         text-decoration: none;
     }
+
     #header-nav-li li:hover {
         background-color: gold;
     }
+
     #header-nav {
         display: block;
         background-color: orange;
         width: 100%;
         padding: 5px;
     }
+
     #footer {
         position: fixed;
         left: 0px;
@@ -229,6 +262,7 @@ input[type="submit"]:hover {
         text-align: center;
         height: 65px;
     }
+
     .fa {
         padding: 10px;
         font-size: 23px;
@@ -238,29 +272,35 @@ input[type="submit"]:hover {
         margin: 5px 2px;
         border-radius: 50%;
     }
+
     .fa:hover {
         opacity: 0.7;
     }
+
     .fa-facebook {
         background: #3B5998;
         color: white;
     }
+
     .fa-twitter {
         background: #55ACEE;
         color: white;
     }
+
     .fa-youtube {
         background: #bb0000;
         color: white;
     }
+
     .fa-instagram {
         background: #125688;
         color: white;
     }
+
     #content {
         /* The image used */
         /* background-image: url("img_girl.jpg"); */
-        background-color: black;
+        background-color: white;
         /* Full height */
         height: 100%;
         /* Center and scale the image nicely */
@@ -271,8 +311,9 @@ input[type="submit"]:hover {
         overflow-y: auto;
         /* tamil font */
         font-family: Roboto, Arial, sans-serif;
-        color: white;
+        color: black;
     }
+
     .split {
         height: 80%;
         width: 50%;
@@ -282,44 +323,54 @@ input[type="submit"]:hover {
         overflow-y: scroll;
         padding-top: 20px;
     }
+
     .left {
         left: 0;
-        background-color: #111;
+        background-color: white;
         font-family: initial;
     }
+
     .right {
         right: 0;
-        background-color: red;
+        background-color: white;
         font-family: fantasy;
     }
+
     .centered {
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: left;
     }
+
     .split.right .centered {
         top: 42%;
     }
+
     .split.left .centered {
         top: 25%;
     }
+
     .split.left .centered.achievements {
         top: 40%;
         font-family: fantasy !important;
     }
+
     .split.right .centered.achievements {
         top: 28%;
         font-family: fantasy !important;
     }
+
     .split.right .centered.contact {
         top: 25%;
         font-family: fantasy !important;
     }
+
     .split.left .centered.contact {
         top: 15%;
         font-family: fantasy !important;
     }
+
     .mySlides {
         width: 75%;
         display: block;
@@ -327,6 +378,7 @@ input[type="submit"]:hover {
         margin-right: auto;
         padding: 30px;
     }
+
     /* .centered img {
         width: 150px;
         border-radius: 50%;
