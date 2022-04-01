@@ -142,7 +142,7 @@ input[type="submit"]:hover {
         width: 50%;
         position: fixed;
         z-index: 1;
-        top: 328px;
+        top: 380px;
         overflow-y: scroll;
         padding-top: 20px;
     }
@@ -208,7 +208,7 @@ input[type="submit"]:hover {
     } */
 }
 
-@media only screen and (max-device-width: 640px) {
+@media only screen and (max-device-width: 500px) {
     #header {
         margin-top: 0px;
         position: relative;
@@ -319,7 +319,7 @@ input[type="submit"]:hover {
         width: 50%;
         position: fixed;
         z-index: 1;
-        top: 328px;
+        top: 380px;
         overflow-y: scroll;
         padding-top: 20px;
     }
@@ -352,7 +352,7 @@ input[type="submit"]:hover {
     }
 
     .split.left .centered.achievements {
-        top: 60%;
+        top: 50%;
         font-family: fantasy !important;
     }
 
